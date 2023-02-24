@@ -125,15 +125,22 @@ super + q
   i3lock -c 222222
 
 #Volume Control
-XF86AudioLowerVolume
-	amixer set Master 5%-
-XF86AudioRaiseVolume
-	amixer set Master 5%+
-XF86AudioMute
-        amixer set Master toggle
+#XF86AudioLowerVolume
+#	amixer set Master 5%-
+#XF86AudioRaiseVolume
+#	amixer set Master 5%+
+#XF86AudioMute
+#amixer set Master toggle
 
-#Brightness control
-XF86MonBrightnessDown
-	xbacklight -dec 5
-XF86MonBrightnessUp
-	xbacklight -inc 5
+##Brightness control
+#XF86MonBrightnessDown
+#	xbacklight -dec 5
+#XF86MonBrightnessUp
+#	xbacklight -inc 5
+super + alt + KP_Add 
+  amixer set Master 5%+
+super + alt + KP_Subtract
+  amixer set Master 5%-
+super + alt + KP_Multiply
+  amixer set Master toggle
+
