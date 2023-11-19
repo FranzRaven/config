@@ -1,0 +1,5 @@
+mpv $(sed -n 1p soma) # mpv < sed n°line of file
+mpv $(awk '{if(NR==1) print $0}' soma)
+head -n lineN° txt
+tail -n + lineN°
+
