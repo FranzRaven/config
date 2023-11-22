@@ -1,0 +1,1 @@
+docker run --rm -d -p 8080:80 --name webapp -v /path_to_html_dir:/usr/share/nginx/html nginx
