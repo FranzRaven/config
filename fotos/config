@@ -1,0 +1,5 @@
+gphoto2
+gvfs
+
+ghoto2 --autodetect --> device
+sudo chmod o+w /dev/bus/usb/device (001/005)
