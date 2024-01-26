@@ -1,0 +1,2 @@
+# reset " mail, name, etc"
+git commit --amend --reset-author --no-edit

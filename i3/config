@@ -57,6 +57,10 @@ bindsym $mod+Control+Up exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK
 bindsym $mod+Control+Down exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -10% && $refresh_i3status
 bindsym $mod+Control+Left exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && $refresh_i3status
 #bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
+# amixer -q sset Master 3%+
+# amixer -q sset Master 3%-
+# amixer -q sset Master toggle
+
 
 
 # Use Mouse+$mod to drag floating windows to their wanted position
