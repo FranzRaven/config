@@ -23,6 +23,10 @@ Plug 'crusoexia/vim-monokai'
 Plug 'flazz/vim-colorschemes'
 Plug 'chriskempson/base16-vim'
 Plug 'gruvbox-community/gruvbox'
+Plug 'dracula/vim', { 'as': 'dracula' }
+Plug 'altercation/vim-colors-solarized'
+Plug 'overcache/NeoSolarized'
+
 
 "   This is a selection of plugins to make prose writing easier. 
 
@@ -65,9 +69,8 @@ Plug 'plasticboy/vim-markdown'
 
  call plug#end()
 
-colorscheme monokai 
-set background=dark 
-
+ colorscheme  solarized8_dark_flat 
+ set background=dark
 if executable('rg')
     let g:rg_derive_root='true' 
 endif
