@@ -1,0 +1,6 @@
+ Instalar drivers de los repos de Void, luego ...
+wget --> nvidia drivers de pag oficial Nvidia para ubuntu
+
+ sudo sh *.run --silent --toolkit --samples --samplespath=/home/david/cuda-test/
+
+
