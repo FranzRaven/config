@@ -148,7 +148,7 @@ require('lazy').setup({
     'navarasu/onedark.nvim',
     -- priority = 1000,
     config = function()
-      vim.cmd.colorscheme 'NeoSolarized'
+      vim.cmd.colorscheme 'monokai-pro'
     end,
  },
 
@@ -159,7 +159,7 @@ require('lazy').setup({
     opts = {
       options = {
         icons_enabled = false,
-        theme = 'solarized',
+        theme = 'monokai-pro',
         component_separators = '|',
         section_separators = '',
       },

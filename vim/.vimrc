@@ -69,7 +69,7 @@ Plug 'plasticboy/vim-markdown'
 
  call plug#end()
 
- colorscheme  solarized8_dark_flat 
+ colorscheme  monokai 
  set background=dark
 if executable('rg')
     let g:rg_derive_root='true' 
