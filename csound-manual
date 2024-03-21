@@ -1,0 +1,9 @@
+# Dependencias
+	* docbook
+	* docbook-xsl
+	* python3-Pygments
+	* apache-fop => if pdf
+
+# Run
+make XSL_BASE_PATH=/usr/share/xsl/docbook
+make pdf
